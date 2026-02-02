@@ -1,0 +1,40 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* Global section spacing */
+section + section {
+  margin-top: 0;
+}
+
+/* Loading animation */
+@keyframes fadeInPage {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.App {
+  animation: fadeInPage 0.5s ease-in;
+}
+
+/* Ensure smooth transitions */
+* {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+/* Override for animations and transforms */
+*:where([class*="animate"], [class*="transition"]) {
+  transition-property: all;
+}
