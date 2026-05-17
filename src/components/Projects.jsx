@@ -4,52 +4,37 @@ import './Projects.css';
 const Projects = () => {
   const projects = [
     {
-      title: 'AI-Powered Analytics Dashboard',
-      description: 'Developed a comprehensive analytics platform using Python and machine learning algorithms to predict customer behavior and optimize service delivery. Integrated with Salesforce for real-time data visualization.',
-      tech: ['Python', 'Machine Learning', 'Salesforce', 'Power BI'],
-      category: 'AI/ML',
-      icon: '🤖',
-      color: 'teal'
-    },
-    {
-      title: 'Unity 3D Game Prototype',
-      description: 'Created an immersive 3D game experience using Unity and C#. Implemented physics-based gameplay mechanics, AI behavior systems, and procedural level generation.',
-      tech: ['Unity', 'C#', '3D Modeling', 'Game Design'],
-      category: 'Game Development',
-      icon: '🎮',
-      color: 'purple'
+      title: 'Auravé Skin Ritual Website',
+      description: 'Launched the Auravé Skin Ritual website using Agentic AI workflows to create content, UX, and customer experience for a luxury facial boutique.',
+      tech: ['Agentic AI', 'Web Design', 'CRM Strategy', 'Customer Experience'],
+      category: 'Website Launch',
+      icon: '🌿',
+      color: 'green',
+      link: 'https://auraveskinritual.com/'
     },
     {
       title: 'Automated KPI Monitoring System',
-      description: 'Built a custom monitoring and reporting system to track team performance metrics across 250+ team members. Reduced manual reporting time by 80% through automation.',
-      tech: ['Python', 'SQL', 'Excel VBA', 'Data Visualization'],
-      category: 'Automation',
+      description: 'Built a custom monitoring and reporting platform to track performance across 250+ team members and automate reporting for leadership.',
+      tech: ['Python', 'SQL', 'Excel', 'Data Visualization'],
+      category: 'Operational Analytics',
       icon: '📊',
+      color: 'teal'
+    },
+    {
+      title: 'AI-Powered Analytics Dashboard',
+      description: 'Developed an analytics platform using machine learning models to surface trends and optimize service delivery for operations teams.',
+      tech: ['Python', 'TensorFlow', 'Power BI', 'Machine Learning'],
+      category: 'AI/ML',
+      icon: '🤖',
       color: 'blue'
     },
     {
-      title: 'Natural Language Processing Chatbot',
-      description: 'Developed an intelligent chatbot using NLP techniques to handle customer inquiries. Achieved 85% accuracy in intent classification and reduced response time by 60%.',
+      title: 'NLP Chatbot & Automation',
+      description: 'Deployed an intelligent NLP solution to automate customer inquiry handling and improve response quality while reducing manual effort.',
       tech: ['Python', 'NLP', 'TensorFlow', 'API Integration'],
-      category: 'AI/ML',
+      category: 'Automation',
       icon: '💬',
-      color: 'green'
-    },
-    {
-      title: 'Process Optimization Toolkit',
-      description: 'Created a suite of tools for workflow automation and process improvement. Streamlined cross-functional operations and improved efficiency by 45%.',
-      tech: ['Python', 'JavaScript', 'APIs', 'Database Design'],
-      category: 'Development',
-      icon: '⚙️',
-      color: 'orange'
-    },
-    {
-      title: 'Data-Driven Leadership Dashboard',
-      description: 'Designed and implemented an executive dashboard for real-time team performance tracking, predictive analytics, and resource allocation optimization.',
-      tech: ['Power BI', 'SQL', 'Python', 'Excel'],
-      category: 'Data Analytics',
-      icon: '📈',
-      color: 'red'
+      color: 'purple'
     }
   ];
 
@@ -76,6 +61,16 @@ const Projects = () => {
                     <span key={i} className="tech-tag">{tech}</span>
                   ))}
                 </div>
+                {project.link && (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-link"
+                  >
+                    View Project
+                  </a>
+                )}
               </div>
 
               <div className="project-overlay"></div>

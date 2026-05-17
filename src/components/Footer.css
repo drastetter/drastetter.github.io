@@ -102,9 +102,27 @@
   transform: translateX(5px);
 }
 
-.footer-column ul li:not(:has(a)) {
+.footer-column ul li {
   color: var(--gray-light);
   font-size: 0.95rem;
+}
+
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  color: var(--teal-primary);
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #a5f3fc;
 }
 
 .footer-bottom {

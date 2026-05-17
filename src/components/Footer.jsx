@@ -14,7 +14,7 @@ const Footer = () => {
               <span className="logo-dot">.</span>
             </div>
             <p className="footer-tagline">
-              Building intelligent systems and immersive experiences
+              Operations-driven AI engineering and digital product delivery
             </p>
           </div>
 
@@ -42,17 +42,26 @@ const Footer = () => {
               <h4>Certifications</h4>
               <ul>
                 <li>Python PCEP Certified</li>
-                <li>AI/ML (In Progress)</li>
-                <li>UT Dallas / Fullstack</li>
+                <li>AI/ML Certificate Completed Mar 2026</li>
+                <li>Fullstack Academy + UT Dallas</li>
               </ul>
             </div>
           </div>
         </div>
 
+        <div className="footer-social">
+          <a href="https://linkedin.com/in/donald-rastetter" target="_blank" rel="noopener noreferrer" className="social-link">
+            LinkedIn
+          </a>
+          <a href="https://github.com/drastetter" target="_blank" rel="noopener noreferrer" className="social-link">
+            GitHub
+          </a>
+        </div>
+
         <div className="footer-bottom">
           <p>&copy; {currentYear} Donald Rastetter. All rights reserved.</p>
           <p className="footer-credit">
-            Designed & Built with React
+            Built with React, Vite, and modern web standards
           </p>
         </div>
       </div>

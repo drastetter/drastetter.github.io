@@ -4,60 +4,48 @@ import './Experience.css';
 const Experience = () => {
   const experiences = [
     {
-      title: 'Functional Manager – Contact Center',
-      company: 'Nelnet',
-      location: 'Lincoln, NE / Plano, TX',
-      period: 'October 2019 – June 2025',
+      title: 'Operational Manager',
+      company: 'TaskUs',
+      location: 'Dallas, TX',
+      period: 'Oct 2025 – Present',
       highlights: [
-        'Led project management for infrastructure improvements across IT and Training departments',
-        'Launched mentor-driven leadership programs; increased team engagement and succession readiness',
-        'Achieved #1 team ranking across performance metrics within 1 year',
-        'Managed 12–15 supervisors and up to 250 team members during remote transformation',
-        'Improved service levels through process audits, root cause analysis, and cross-functional collaboration'
+        'Scaled an operations team from 8 to 40+ members while defining workflows, performance standards, and team structure.',
+        'Used KPI tracking and real-time monitoring to exceed month-over-month targets and improve issue resolution for automated vehicle systems.',
+        'Led a high-availability support team for automated vehicle systems, minimizing downtime and accelerating recovery.',
+        'Designed workflows to improve response times, resolution efficiency, and operational resilience.',
+        'Mentored frontline leaders and partnered with technical stakeholders to align operations with evolving system needs.'
       ],
-      icon: '💼',
+      icon: '🚦',
       color: 'teal'
     },
     {
-      title: 'Supervisor – Inbound/Outbound',
+      title: 'Functional Manager',
       company: 'Nelnet',
-      location: 'Lincoln, NE',
-      period: 'August 2015 – October 2019',
+      location: 'Plano, TX',
+      period: 'Oct 2019 – Jun 2025',
       highlights: [
-        'Scaled outbound operations with 275% growth and maintained 100% client satisfaction',
-        'Designed compliance-driven training and reporting for client platforms',
-        'Created team-specific dashboards using Excel and internal tools to monitor KPIs',
-        'Handled forecasting, staffing, and budgeting for growing teams'
+        'Led operations for up to 250 employees and 12–15 supervisors during a large remote transformation.',
+        'Drove cross-functional projects with IT and Training, improving service levels through data analysis and KPI tracking.',
+        'Achieved the #1 team ranking across performance metrics within one year.',
+        'Created leadership training and mentorship programs to boost engagement and internal promotion readiness.',
+        'Improved operational consistency through root cause analysis and performance-focused process improvements.'
       ],
-      icon: '📊',
+      icon: '💼',
       color: 'blue'
     },
     {
-      title: 'Customer Care Representative / Team Lead',
+      title: 'Supervisor – Inbound/Outbound Operations',
       company: 'Nelnet',
-      location: 'Lincoln, NE',
-      period: 'February 2013 – August 2015',
+      location: 'Plano, TX',
+      period: 'Aug 2015 – Oct 2019',
       highlights: [
-        'Provided exceptional customer service and technical support',
-        'Mentored new team members and assisted with training initiatives',
-        'Consistently exceeded performance targets and KPIs'
+        'Scaled outbound operations by 275% while maintaining 100% client satisfaction.',
+        'Built KPI dashboards in Excel and managed forecasting, staffing, and budgeting for operational efficiency.',
+        'Designed compliance-driven reporting, training programs, and performance monitoring tools.',
+        'Led day-to-day team execution with strong emphasis on quality, speed, and client outcomes.'
       ],
-      icon: '🎯',
+      icon: '📊',
       color: 'purple'
-    },
-    {
-      title: 'Student Manager / Salesperson',
-      company: 'The Southwestern Company',
-      location: 'Nashville, TN',
-      period: 'May 2009 – February 2011',
-      highlights: [
-        'Recruited, trained, and motivated salespeople for direct sales',
-        'Prospected and approached over 3,000 families from various socio-economic levels',
-        'Achieved personal retail sales of $21,788.95',
-        'Developed strong communication and leadership skills'
-      ],
-      icon: '📈',
-      color: 'green'
     }
   ];
 
@@ -66,7 +54,7 @@ const Experience = () => {
       <div className="container">
         <h2 className="section-title">Professional Experience</h2>
         <p className="section-subtitle">
-          10+ years of leadership experience in operations management, team development, and strategic project execution
+          A proven leader in large-scale operations and AI-enabled delivery, guiding teams while building systems that improve service, reliability, and customer experience.
         </p>
 
         <div className="timeline">

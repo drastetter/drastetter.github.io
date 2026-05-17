@@ -1,17 +1,17 @@
 # Donald Rastetter - Portfolio Website
 
-A modern, professional portfolio website showcasing skills as an AI Engineer and Game Developer.
+A modern, professional portfolio website showcasing AI engineering, operations leadership, and digital product delivery.
 
 **Live Site:** [drastetter.github.io](https://drastetter.github.io)
 
 ## Features
 
-- **Modern Design**: Sophisticated design with teal accents on dark gray/black backgrounds
-- **Responsive**: Fully responsive design that works on all devices
-- **Smooth Animations**: Engaging animations and transitions throughout
-- **Interactive Components**: Dynamic navigation, hover effects, and smooth scrolling
-- **Certification Highlights**: Prominently features Python PCEP certification and upcoming AI/ML certificate
-- **Dark Theme**: Professional dark sections alternating with light sections for visual interest
+- **Modern Design**: Clean, professional layout with teal accents and polished components
+- **Responsive**: Fully responsive across desktop, tablet, and mobile screens
+- **Resume Download**: Includes a downloadable resume at `/resume.pdf`
+- **Certifications**: Highlights Python PCEP and completed AI/ML certificate (Mar 2026)
+- **Project Showcase**: Includes actual work such as the Auravé Skin Ritual website launch
+- **Accessible Navigation**: Smooth scrolling and mobile-friendly menu experience
 
 ## Tech Stack
 

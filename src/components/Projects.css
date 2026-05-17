@@ -255,6 +255,25 @@
   border: 2px solid rgba(20, 184, 166, 0.2);
 }
 
+.project-link {
+  display: inline-flex;
+  margin-top: 1.5rem;
+  background: rgba(20, 184, 166, 0.1);
+  color: var(--teal-dark);
+  border: 1px solid rgba(20, 184, 166, 0.25);
+  border-radius: 999px;
+  padding: 0.75rem 1.25rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.project-link:hover {
+  background: var(--teal-primary);
+  color: white;
+  transform: translateY(-2px);
+}
+
 .projects-cta h3 {
   font-size: 2rem;
   font-weight: 700;

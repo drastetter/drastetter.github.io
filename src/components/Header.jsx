@@ -42,11 +42,11 @@ const Header = () => {
           </button>
 
           <ul className={`nav-menu ${menuOpen ? 'active' : ''}`}>
-            <li><a onClick={() => scrollToSection('about')}>About</a></li>
-            <li><a onClick={() => scrollToSection('skills')}>Skills</a></li>
-            <li><a onClick={() => scrollToSection('experience')}>Experience</a></li>
-            <li><a onClick={() => scrollToSection('projects')}>Projects</a></li>
-            <li><a onClick={() => scrollToSection('contact')} className="contact-btn">Contact</a></li>
+            <li><a href="#about" onClick={() => scrollToSection('about')}>About</a></li>
+            <li><a href="#skills" onClick={() => scrollToSection('skills')}>Skills</a></li>
+            <li><a href="#experience" onClick={() => scrollToSection('experience')}>Experience</a></li>
+            <li><a href="#projects" onClick={() => scrollToSection('projects')}>Projects</a></li>
+            <li><a href="#contact" onClick={() => scrollToSection('contact')} className="contact-btn">Contact</a></li>
           </ul>
         </nav>
       </div>

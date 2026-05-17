@@ -28,12 +28,11 @@ const Hero = () => {
               Hi, I'm <span className="gradient-text">Donald Rastetter</span>
             </h1>
             <h2 className="hero-subtitle">
-              AI Engineer & Game Developer
+              AI Engineer & Operations Leader
             </h2>
             <p className="hero-description">
-              Passionate about building intelligent systems and immersive experiences.
-              Specializing in Python, Machine Learning, and Game Development with a proven
-              track record in operations leadership and technical innovation.
+              I combine 10+ years of operations leadership with modern AI, automation, and web delivery.
+              My work centers on scaling teams, improving KPI-driven processes, and launching customer-facing digital experiences.
             </p>
 
             <div className="hero-cta">
@@ -43,8 +42,8 @@ const Hero = () => {
                   <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </button>
-              <a href="#projects" className="btn-secondary">
-                View My Work
+              <a href="/resume.pdf" className="btn-secondary" target="_blank" rel="noopener noreferrer">
+                View Resume
               </a>
             </div>
 
@@ -54,12 +53,12 @@ const Hero = () => {
                 <p>Years Experience</p>
               </div>
               <div className="stat">
-                <h3>Python</h3>
-                <p>PCEP Certified</p>
+                <h3>PCEP</h3>
+                <p>Python Certified</p>
               </div>
               <div className="stat">
                 <h3>AI/ML</h3>
-                <p>In Progress</p>
+                <p>Completed Mar 2026</p>
               </div>
             </div>
           </div>
@@ -75,15 +74,15 @@ const Hero = () => {
             <div className="floating-card card-2">
               <div className="card-icon">🤖</div>
               <div className="card-text">
-                <div className="card-title">AI/ML</div>
-                <div className="card-badge">UT Dallas</div>
+                <div className="card-title">AI/ML Certificate</div>
+                <div className="card-badge">Completed Mar 2026</div>
               </div>
             </div>
             <div className="floating-card card-3">
-              <div className="card-icon">🎮</div>
+              <div className="card-icon">🌿</div>
               <div className="card-text">
-                <div className="card-title">Unity</div>
-                <div className="card-badge">Game Dev</div>
+                <div className="card-title">Auravé Website</div>
+                <div className="card-badge">Live April 2026</div>
               </div>
             </div>
             <div className="hero-image">

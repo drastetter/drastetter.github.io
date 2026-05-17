@@ -4,58 +4,58 @@ import './Skills.css';
 const Skills = () => {
   const certifications = [
     {
-      title: 'Python PCEP',
+      title: 'PCEP™ Certified',
       organization: 'Python Institute',
-      status: 'Certified',
+      status: 'Completed Jun 2025',
       icon: '🏆',
       color: 'teal',
-      description: 'Certified Entry-Level Python Programmer'
+      description: 'Certified Entry-Level Python Programmer (PCEP-30-02)'
     },
     {
-      title: 'AI/Machine Learning',
+      title: 'AI/Machine Learning Certificate',
       organization: 'Fullstack Academy & UT Dallas',
-      status: 'In Progress',
+      status: 'Completed Mar 2026',
       icon: '🎓',
       color: 'blue',
-      description: 'Advanced AI/ML Certificate Program'
+      description: 'Immersive AI/ML program with TensorFlow, Keras, and NLP coursework'
     }
   ];
 
   const technicalSkills = [
     {
-      category: 'Programming Languages',
+      category: 'Operations & Leadership',
       skills: [
-        { name: 'Python', level: 90, icon: '🐍' },
-        { name: 'JavaScript', level: 85, icon: '⚡' },
-        { name: 'SQL', level: 80, icon: '🗄️' },
-        { name: 'C#', level: 60, icon: '⚙️' }
+        { name: 'Team Leadership', level: 90, icon: '👥' },
+        { name: 'KPI Management', level: 90, icon: '📈' },
+        { name: 'Forecasting', level: 85, icon: '🧮' },
+        { name: 'Process Optimization', level: 88, icon: '⚙️' }
       ]
     },
     {
       category: 'AI & Machine Learning',
       skills: [
-        { name: 'Machine Learning', level: 75, icon: '🤖' },
-        { name: 'Data Analysis', level: 85, icon: '📊' },
-        { name: 'Neural Networks', level: 70, icon: '🧠' },
-        { name: 'NLP', level: 65, icon: '💬' }
+        { name: 'TensorFlow', level: 80, icon: '🧠' },
+        { name: 'Keras', level: 80, icon: '🔧' },
+        { name: 'PyTorch', level: 75, icon: '🔥' },
+        { name: 'NLP & LLMs', level: 75, icon: '💬' }
       ]
     },
     {
-      category: 'Game Development',
+      category: 'Data & Automation',
       skills: [
-        { name: 'Unity', level: 65, icon: '🎮' },
-        { name: 'Game Design', level: 70, icon: '🎨' },
-        { name: '3D Modeling', level: 55, icon: '🔷' },
-        { name: 'Physics Systems', level: 60, icon: '⚛️' }
+        { name: 'Python', level: 92, icon: '🐍' },
+        { name: 'SQL', level: 85, icon: '🗄️' },
+        { name: 'Power BI', level: 80, icon: '📊' },
+        { name: 'Git', level: 88, icon: '🔧' }
       ]
     },
     {
-      category: 'Tools & Platforms',
+      category: 'Web & Product',
       skills: [
-        { name: 'Salesforce', level: 85, icon: '☁️' },
-        { name: 'Power BI', level: 80, icon: '📈' },
-        { name: 'Git', level: 85, icon: '🔧' },
-        { name: 'Workday', level: 75, icon: '💼' }
+        { name: 'HTML/CSS', level: 80, icon: '🌐' },
+        { name: 'JavaScript', level: 80, icon: '⚡' },
+        { name: 'Agentic AI', level: 75, icon: '🤖' },
+        { name: 'CRM Integration', level: 78, icon: '🔗' }
       ]
     }
   ];

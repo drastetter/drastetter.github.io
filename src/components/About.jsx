@@ -12,21 +12,16 @@ const About = () => {
             </h2>
             <div className="about-description">
               <p>
-                I'm a versatile professional with a unique blend of operations leadership
-                and technical expertise. With over 10 years of experience leading high-performing
-                teams, I'm now channeling my passion for technology into AI Engineering and
-                Game Development.
+                I'm an operations-driven AI engineer who blends large-scale team leadership with modern AI, automation, and digital delivery.
+                Over the last decade, I've led transformation projects with 250+ team members while building systems that improve reliability and outcomes.
               </p>
               <p>
-                My journey from managing 250+ team members at Nelnet to pursuing advanced
-                certifications in Python and AI/Machine Learning demonstrates my commitment
-                to continuous growth and technical excellence. I bring a strategic mindset,
-                proven leadership skills, and a deep enthusiasm for building intelligent systems.
+                My background includes scaling contact center operations, creating KPI-driven dashboards, and leading cross-functional initiatives
+                across IT, training, and client delivery. I bring a practical mindset that connects operational excellence with technical execution.
               </p>
               <p>
-                Currently pursuing an AI/Machine Learning Certificate from Fullstack Academy
-                and the University of Texas at Dallas, I'm excited to apply my technical skills
-                and operational expertise to innovative projects in AI and game development.
+                I completed the Fullstack Academy + UT Dallas AI & Machine Learning program in March 2026 and continue to deliver customer-facing
+                products such as the Auravé Skin Ritual website while supporting high-availability automated vehicle operations at TaskUs.
               </p>
             </div>
 
@@ -34,22 +29,22 @@ const About = () => {
               <div className="highlight-item">
                 <div className="highlight-icon">🎯</div>
                 <div className="highlight-content">
-                  <h4>Mission-Driven</h4>
-                  <p>Passionate about creating technology that makes a difference</p>
+                  <h4>Operations Leadership</h4>
+                  <p>Scaling teams, defining workflows, and driving service delivery across large organizations.</p>
                 </div>
               </div>
               <div className="highlight-item">
-                <div className="highlight-icon">🚀</div>
+                <div className="highlight-icon">🤖</div>
                 <div className="highlight-content">
-                  <h4>Innovation Focused</h4>
-                  <p>Always exploring new technologies and methodologies</p>
+                  <h4>AI & Automation</h4>
+                  <p>Applying machine learning, NLP, and automation to improve performance and customer experience.</p>
                 </div>
               </div>
               <div className="highlight-item">
-                <div className="highlight-icon">🤝</div>
+                <div className="highlight-icon">🌿</div>
                 <div className="highlight-content">
-                  <h4>Team Player</h4>
-                  <p>Proven track record of cross-functional collaboration</p>
+                  <h4>Product Delivery</h4>
+                  <p>Launching digital products and websites with a strong focus on customer experience.</p>
                 </div>
               </div>
             </div>
@@ -85,7 +80,7 @@ const About = () => {
                 <div className="edu-content">
                   <h4>AI/Machine Learning Certificate</h4>
                   <p>Fullstack Academy & UT Dallas</p>
-                  <span className="edu-status">In Progress - 2026</span>
+                  <span className="edu-status">Completed Mar 2026</span>
                 </div>
               </div>
               <div className="education-item">
