@@ -1,40 +1,41 @@
 import React from 'react';
+import { FiActivity, FiBarChart2, FiExternalLink, FiMessageSquare, FiZap } from 'react-icons/fi';
 import './Projects.css';
 
 const Projects = () => {
   const projects = [
     {
-      title: 'Auravé Skin Ritual Website',
-      description: 'Launched the Auravé Skin Ritual website using Agentic AI workflows to create content, UX, and customer experience for a luxury facial boutique.',
+      title: 'Aurave Skin Ritual Website',
+      description: 'Launched a customer-facing website using agentic AI workflows for content, UX, and CRM-ready customer experience planning.',
       tech: ['Agentic AI', 'Web Design', 'CRM Strategy', 'Customer Experience'],
       category: 'Website Launch',
-      icon: '🌿',
-      color: 'green',
+      icon: FiZap,
+      tone: 'green',
       link: 'https://auraveskinritual.com/'
     },
     {
       title: 'Automated KPI Monitoring System',
-      description: 'Built a custom monitoring and reporting platform to track performance across 250+ team members and automate reporting for leadership.',
+      description: 'Built a monitoring and reporting framework to track team performance, surface trends, and automate leadership reporting.',
       tech: ['Python', 'SQL', 'Excel', 'Data Visualization'],
       category: 'Operational Analytics',
-      icon: '📊',
-      color: 'teal'
+      icon: FiBarChart2,
+      tone: 'cyan'
     },
     {
       title: 'AI-Powered Analytics Dashboard',
-      description: 'Developed an analytics platform using machine learning models to surface trends and optimize service delivery for operations teams.',
+      description: 'Developed analytics workflows using machine learning concepts to identify service delivery patterns and optimization opportunities.',
       tech: ['Python', 'TensorFlow', 'Power BI', 'Machine Learning'],
       category: 'AI/ML',
-      icon: '🤖',
-      color: 'blue'
+      icon: FiActivity,
+      tone: 'blue'
     },
     {
       title: 'NLP Chatbot & Automation',
-      description: 'Deployed an intelligent NLP solution to automate customer inquiry handling and improve response quality while reducing manual effort.',
+      description: 'Designed an NLP automation concept for customer inquiry handling, response quality, and reduced manual operational effort.',
       tech: ['Python', 'NLP', 'TensorFlow', 'API Integration'],
       category: 'Automation',
-      icon: '💬',
-      color: 'purple'
+      icon: FiMessageSquare,
+      tone: 'violet'
     }
   ];
 
@@ -43,50 +44,41 @@ const Projects = () => {
       <div className="container">
         <h2 className="section-title">Featured Projects</h2>
         <p className="section-subtitle">
-          A showcase of technical projects demonstrating expertise in AI, game development, and data-driven solutions
+          Selected work showing the overlap of AI engineering, operational analytics, automation, and customer-facing product delivery.
         </p>
 
         <div className="projects-grid">
-          {projects.map((project, index) => (
-            <div key={index} className={`project-card ${project.color}`}>
-              <div className="project-icon">{project.icon}</div>
+          {projects.map((project) => {
+            const Icon = project.icon;
+            return (
+              <article key={project.title} className={`project-card ${project.tone}`}>
+                <div className="project-icon"><Icon aria-hidden="true" /></div>
 
-              <div className="project-content">
-                <div className="project-category">{project.category}</div>
-                <h3 className="project-title">{project.title}</h3>
-                <p className="project-description">{project.description}</p>
+                <div className="project-content">
+                  <div className="project-category">{project.category}</div>
+                  <h3 className="project-title">{project.title}</h3>
+                  <p className="project-description">{project.description}</p>
 
-                <div className="project-tech">
-                  {project.tech.map((tech, i) => (
-                    <span key={i} className="tech-tag">{tech}</span>
-                  ))}
+                  <div className="project-tech">
+                    {project.tech.map((tech) => (
+                      <span key={tech} className="tech-tag">{tech}</span>
+                    ))}
+                  </div>
+                  {project.link && (
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="project-link"
+                    >
+                      View Project
+                      <FiExternalLink aria-hidden="true" />
+                    </a>
+                  )}
                 </div>
-                {project.link && (
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="project-link"
-                  >
-                    View Project
-                  </a>
-                )}
-              </div>
-
-              <div className="project-overlay"></div>
-            </div>
-          ))}
-        </div>
-
-        <div className="projects-cta">
-          <h3>Interested in collaboration?</h3>
-          <p>I'm always open to discussing new projects and opportunities</p>
-          <a href="#contact" className="cta-button">
-            Get in Touch
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-              <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-          </a>
+              </article>
+            );
+          })}
         </div>
       </div>
     </section>

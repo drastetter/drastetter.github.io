@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiCpu, FiCode, FiDatabase, FiExternalLink, FiFileText, FiZap } from 'react-icons/fi';
 import './Hero.css';
 
 const Hero = () => {
@@ -13,8 +14,6 @@ const Hero = () => {
     <section id="hero" className="hero">
       <div className="hero-background">
         <div className="grid-pattern"></div>
-        <div className="gradient-orb orb-1"></div>
-        <div className="gradient-orb orb-2"></div>
       </div>
 
       <div className="container">
@@ -22,85 +21,95 @@ const Hero = () => {
           <div className="hero-text fade-in-up">
             <div className="hero-label">
               <span className="pulse-dot"></span>
-              Available for hire
+              Available for AI, automation, and operations roles
             </div>
             <h1 className="hero-title">
-              Hi, I'm <span className="gradient-text">Donald Rastetter</span>
+              Donald Rastetter builds <span className="gradient-text">AI-enabled operations</span>.
             </h1>
-            <h2 className="hero-subtitle">
-              AI Engineer & Operations Leader
-            </h2>
+            <h2 className="hero-subtitle">AI Engineer & Operations Leader</h2>
             <p className="hero-description">
-              I combine 10+ years of operations leadership with modern AI, automation, and web delivery.
-              My work centers on scaling teams, improving KPI-driven processes, and launching customer-facing digital experiences.
+              I build practical AI, automation, and analytics systems from a decade of high-scale operations leadership.
+              My work connects technical delivery with measurable improvements in reliability, performance, and customer experience.
             </p>
 
             <div className="hero-cta">
               <button className="btn-primary" onClick={scrollToContact}>
                 Let's Connect
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
+                <FiExternalLink aria-hidden="true" />
               </button>
               <a href="/resume.pdf" className="btn-secondary" target="_blank" rel="noopener noreferrer">
+                <FiFileText aria-hidden="true" />
                 View Resume
               </a>
             </div>
 
-            <div className="hero-stats">
+            <div className="hero-stats" aria-label="Career highlights">
               <div className="stat">
                 <h3>10+</h3>
                 <p>Years Experience</p>
               </div>
               <div className="stat">
-                <h3>PCEP</h3>
-                <p>Python Certified</p>
+                <h3>250+</h3>
+                <p>Team Members Led</p>
               </div>
               <div className="stat">
-                <h3>AI/ML</h3>
-                <p>Completed Mar 2026</p>
+                <h3>PCEP</h3>
+                <p>Python Certified</p>
               </div>
             </div>
           </div>
 
-          <div className="hero-visual slide-in-right">
-            <div className="floating-card card-1">
-              <div className="card-icon">🐍</div>
-              <div className="card-text">
-                <div className="card-title">Python</div>
-                <div className="card-badge">PCEP Certified</div>
+          <div className="hero-visual slide-in-right" aria-label="Technical capability visual">
+            <div className="system-panel">
+              <div className="panel-header">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div className="panel-grid">
+                <div className="panel-node node-primary">
+                  <FiCpu aria-hidden="true" />
+                  <span>AI/ML</span>
+                </div>
+                <div className="panel-node">
+                  <FiCode aria-hidden="true" />
+                  <span>Python</span>
+                </div>
+                <div className="panel-node">
+                  <FiDatabase aria-hidden="true" />
+                  <span>Analytics</span>
+                </div>
+                <div className="panel-node">
+                  <FiZap aria-hidden="true" />
+                  <span>Automation</span>
+                </div>
+              </div>
+              <div className="signal-map">
+                <div className="signal-line"></div>
+                <div className="signal-line short"></div>
+                <div className="signal-line mid"></div>
               </div>
             </div>
-            <div className="floating-card card-2">
-              <div className="card-icon">🤖</div>
-              <div className="card-text">
+
+            <div className="floating-card card-1">
+              <FiCpu aria-hidden="true" />
+              <div>
                 <div className="card-title">AI/ML Certificate</div>
                 <div className="card-badge">Completed Mar 2026</div>
               </div>
             </div>
             <div className="floating-card card-3">
-              <div className="card-icon">🌿</div>
-              <div className="card-text">
-                <div className="card-title">Auravé Website</div>
+              <FiCode aria-hidden="true" />
+              <div>
+                <div className="card-title">Aurave Website</div>
                 <div className="card-badge">Live April 2026</div>
-              </div>
-            </div>
-            <div className="hero-image">
-              <div className="image-placeholder">
-                <div className="code-lines">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="scroll-indicator">
+      <div className="scroll-indicator" aria-hidden="true">
         <div className="mouse">
           <div className="wheel"></div>
         </div>
