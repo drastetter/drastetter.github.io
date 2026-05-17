@@ -163,8 +163,13 @@
   place-items: center;
 }
 
-.system-panel {
+.visual-stack {
   width: min(100%, 460px);
+  position: relative;
+}
+
+.system-panel {
+  width: 100%;
   padding: 1rem;
   border: 1px solid rgba(49, 215, 255, 0.25);
   border-radius: var(--radius);
@@ -241,47 +246,6 @@
   background: linear-gradient(90deg, var(--blue), rgba(91, 140, 255, 0.08));
 }
 
-.floating-card {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  width: min(250px, 72%);
-  padding: 0.95rem;
-  border: 1px solid rgba(49, 215, 255, 0.24);
-  border-radius: var(--radius);
-  background: rgba(8, 20, 36, 0.9);
-  color: var(--text);
-  box-shadow: var(--shadow);
-}
-
-.floating-card svg {
-  width: 26px;
-  height: 26px;
-  color: var(--green);
-}
-
-.card-1 {
-  top: 38px;
-  right: 0;
-}
-
-.card-3 {
-  bottom: 56px;
-  left: 0;
-}
-
-.card-title {
-  color: var(--text-strong);
-  font-weight: 800;
-}
-
-.card-badge {
-  color: var(--text-muted);
-  font-size: 0.78rem;
-  font-weight: 700;
-}
-
 .scroll-indicator {
   position: absolute;
   bottom: 1.5rem;
@@ -350,9 +314,7 @@
     min-height: 390px;
   }
 
-  .floating-card {
-    position: static;
-    width: 100%;
-    margin-top: 0.75rem;
+  .visual-stack {
+    display: grid;
   }
 }

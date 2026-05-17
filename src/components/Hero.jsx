@@ -21,7 +21,7 @@ const Hero = () => {
           <div className="hero-text fade-in-up">
             <div className="hero-label">
               <span className="pulse-dot"></span>
-              Available for AI, automation, and operations roles
+              Available for AI, Automation, and Operations roles
             </div>
             <h1 className="hero-title">
               Donald Rastetter builds <span className="gradient-text">AI-enabled operations</span>.
@@ -60,50 +60,38 @@ const Hero = () => {
           </div>
 
           <div className="hero-visual slide-in-right" aria-label="Technical capability visual">
-            <div className="system-panel">
-              <div className="panel-header">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div className="visual-stack">
+              <div className="system-panel">
+                <div className="panel-header">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <div className="panel-grid">
+                  <div className="panel-node node-primary">
+                    <FiCpu aria-hidden="true" />
+                    <span>AI/ML</span>
+                  </div>
+                  <div className="panel-node">
+                    <FiCode aria-hidden="true" />
+                    <span>Python</span>
+                  </div>
+                  <div className="panel-node">
+                    <FiDatabase aria-hidden="true" />
+                    <span>Analytics</span>
+                  </div>
+                  <div className="panel-node">
+                    <FiZap aria-hidden="true" />
+                    <span>Automation</span>
+                  </div>
+                </div>
+                <div className="signal-map">
+                  <div className="signal-line"></div>
+                  <div className="signal-line short"></div>
+                  <div className="signal-line mid"></div>
+                </div>
               </div>
-              <div className="panel-grid">
-                <div className="panel-node node-primary">
-                  <FiCpu aria-hidden="true" />
-                  <span>AI/ML</span>
-                </div>
-                <div className="panel-node">
-                  <FiCode aria-hidden="true" />
-                  <span>Python</span>
-                </div>
-                <div className="panel-node">
-                  <FiDatabase aria-hidden="true" />
-                  <span>Analytics</span>
-                </div>
-                <div className="panel-node">
-                  <FiZap aria-hidden="true" />
-                  <span>Automation</span>
-                </div>
-              </div>
-              <div className="signal-map">
-                <div className="signal-line"></div>
-                <div className="signal-line short"></div>
-                <div className="signal-line mid"></div>
-              </div>
-            </div>
 
-            <div className="floating-card card-1">
-              <FiCpu aria-hidden="true" />
-              <div>
-                <div className="card-title">AI/ML Certificate</div>
-                <div className="card-badge">Completed Mar 2026</div>
-              </div>
-            </div>
-            <div className="floating-card card-3">
-              <FiCode aria-hidden="true" />
-              <div>
-                <div className="card-title">Aurave Website</div>
-                <div className="card-badge">Live April 2026</div>
-              </div>
             </div>
           </div>
         </div>
